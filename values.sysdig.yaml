@@ -1,0 +1,15 @@
+nodeAnalyzer:
+  secure:
+    vulnerabilityManagement:
+      newEngineOnly: true
+  nodeAnalyzer:
+    benchmarkRunner:
+      deploy: false
+global:
+  sysdig:
+    accessKey: 8fd8e710-01fc-4b42-8454-d1a9f527a091
+    region: us4
+  kspm:
+    deploy: true
+  clusterConfig:
+    name: sysdig-autopilot-cluster-1
